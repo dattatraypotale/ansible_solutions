@@ -15,7 +15,9 @@
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1631964664,,"wq!"
+|2,0,1631968547,,"wq!"
+:q!
+|2,0,1631968537,,"q!"
 
 # Search String History (newest to oldest):
 ? \<password\>
@@ -30,32 +32,82 @@
 # Registers:
 
 # File marks:
-'0  14  7  ~/plays/pb_adduser.yml
-|4,48,14,7,1631964664,"~/plays/pb_adduser.yml"
-'1  9  6  ~/plays/pb_adduser.yml
-|4,49,9,6,1631964550,"~/plays/pb_adduser.yml"
-'2  9  6  ~/plays/pb_adduser.yml
-|4,50,9,6,1631964550,"~/plays/pb_adduser.yml"
-'3  10  0  ~/plays/pb_adduser.yml
-|4,51,10,0,1631964509,"~/plays/pb_adduser.yml"
-'4  10  0  ~/plays/pb_adduser.yml
-|4,52,10,0,1631964509,"~/plays/pb_adduser.yml"
-'5  10  0  ~/plays/pb_adduser.yml
-|4,53,10,0,1631964509,"~/plays/pb_adduser.yml"
+'0  1  14  ~/readme
+|4,48,1,14,1631968547,"~/readme"
+'1  61  0  ~/readme
+|4,49,61,0,1631968537,"~/readme"
+'2  61  0  ~/readme
+|4,50,61,0,1631968537,"~/readme"
+'3  14  7  ~/plays/pb_adduser.yml
+|4,51,14,7,1631964664,"~/plays/pb_adduser.yml"
+'4  9  6  ~/plays/pb_adduser.yml
+|4,52,9,6,1631964550,"~/plays/pb_adduser.yml"
+'5  9  6  ~/plays/pb_adduser.yml
+|4,53,9,6,1631964550,"~/plays/pb_adduser.yml"
 '6  10  0  ~/plays/pb_adduser.yml
 |4,54,10,0,1631964509,"~/plays/pb_adduser.yml"
+'7  10  0  ~/plays/pb_adduser.yml
+|4,55,10,0,1631964509,"~/plays/pb_adduser.yml"
+'8  10  0  ~/plays/pb_adduser.yml
+|4,56,10,0,1631964509,"~/plays/pb_adduser.yml"
+'9  10  0  ~/plays/pb_adduser.yml
+|4,57,10,0,1631964509,"~/plays/pb_adduser.yml"
 
 # Jumplist (newest first):
+-'  1  14  ~/readme
+|4,39,1,14,1631968547,"~/readme"
+-'  61  0  ~/readme
+|4,39,61,0,1631968537,"~/readme"
+-'  61  0  ~/readme
+|4,39,61,0,1631968537,"~/readme"
+-'  1  0  ~/readme
+|4,39,1,0,1631968423,"~/readme"
+-'  14  7  ~/plays/pb_adduser.yml
+|4,39,14,7,1631964664,"~/plays/pb_adduser.yml"
+-'  14  7  ~/plays/pb_adduser.yml
+|4,39,14,7,1631964664,"~/plays/pb_adduser.yml"
+-'  14  7  ~/plays/pb_adduser.yml
+|4,39,14,7,1631964664,"~/plays/pb_adduser.yml"
 -'  14  7  ~/plays/pb_adduser.yml
 |4,39,14,7,1631964664,"~/plays/pb_adduser.yml"
 -'  9  6  ~/plays/pb_adduser.yml
 |4,39,9,6,1631964653,"~/plays/pb_adduser.yml"
+-'  9  6  ~/plays/pb_adduser.yml
+|4,39,9,6,1631964653,"~/plays/pb_adduser.yml"
+-'  9  6  ~/plays/pb_adduser.yml
+|4,39,9,6,1631964653,"~/plays/pb_adduser.yml"
+-'  9  6  ~/plays/pb_adduser.yml
+|4,39,9,6,1631964653,"~/plays/pb_adduser.yml"
+-'  9  6  ~/plays/pb_adduser.yml
+|4,39,9,6,1631964550,"~/plays/pb_adduser.yml"
+-'  9  6  ~/plays/pb_adduser.yml
+|4,39,9,6,1631964550,"~/plays/pb_adduser.yml"
+-'  9  6  ~/plays/pb_adduser.yml
+|4,39,9,6,1631964550,"~/plays/pb_adduser.yml"
 -'  9  6  ~/plays/pb_adduser.yml
 |4,39,9,6,1631964550,"~/plays/pb_adduser.yml"
 -'  10  0  ~/plays/pb_adduser.yml
 |4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
 -'  10  0  ~/plays/pb_adduser.yml
 |4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964524,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964509,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964509,"~/plays/pb_adduser.yml"
+-'  10  0  ~/plays/pb_adduser.yml
+|4,39,10,0,1631964509,"~/plays/pb_adduser.yml"
 -'  10  0  ~/plays/pb_adduser.yml
 |4,39,10,0,1631964509,"~/plays/pb_adduser.yml"
 -'  1  0  ~/plays/pb_adduser.yml
@@ -64,8 +116,34 @@
 |4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
 -'  1  0  ~/plays/pb_adduser.yml
 |4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
+-'  1  0  ~/plays/pb_adduser.yml
+|4,39,1,0,1631964400,"~/plays/pb_adduser.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/readme
+	*	1631968545	0
+	"	1	14
+	^	1	15
+	.	60	58
+	+	60	59
+	+	60	58
 
 > ~/plays/pb_adduser.yml
 	*	1631964663	0

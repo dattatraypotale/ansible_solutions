@@ -1,0 +1,60 @@
+Install Ansible
+==================================
+Control-Node -> where ansible will be installed
+managed hosts -> machines which we will automate
+
+
+Pre:
+1) Activate connection permanently: ON ALL MACHINES
+    #nmcli connection show -> to view connections
+    #nmcli connection modify "connection name" connection.autoconnect yes
+
+2) Set hostname:
+    #hostnamectl set-hostname control -> on first machine
+    #hostnamectl set-hostname node1 -> on second machine
+    #hostnamectl set-hostname node2 -> on third machine
+
+3) Configure Local DNS: ON FIRST MACHINE
+    #ifconfig
+    #vim /etc/hosts
+    <FIRST MACHINE IP> control
+    <SECOND MACHINE IP> node1
+    <THIRD MACHINE IP> node2
+
+    #scp /etc/hosts node1:/etc/
+    #scp /etc/hosts node2:/etc/
+
+4) Install EPEL RELEASE : ONLY ON FIRST MACHINE
+    #yum install epel-release -y
+
+5) Install Ansible: on first machine
+
+#yum install ansible -y
+#ansible --version
+
+6) SSH Key based authentication: ON FIRST MACHINE
+
+#ssh-keygen
+#ssh-copy-id root@node1
+#ssh-copy-id root@node2
+
+7) Inventory: ON FIRST MACHINE
+#vim /etc/ansible/hosts
+node1
+node2
+
+8) To verify: ON FIRST MACHINE
+#ansible all -m ping 
+
+Managing Ansible Configuration File
+============================================
+#ansible --version -> to check ansible configuration file location
+
+by default -> /etc/ansible/ansible.cfg
+
+
+Four places to store configuration file:
+1) /etc/ansible/ansible.cfg -> default
+2) ~/.ansible.cfg -> user home directory
+3) ansible.cfg -> current directory
+4) ANSIBLE_CONFIG -> #export ANSIBLE_CONFIG=<file location>

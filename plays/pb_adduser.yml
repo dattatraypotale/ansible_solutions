@@ -1,0 +1,31 @@
+# playbook to add user in server and sudoers file
+- name: playbook to create sudo user
+  hosts: all
+  become: true
+  become_method: sudo
+  vars:
+   test_user: ansible
+
+  tasks:
+    - name: adding user to server
+      user:
+       name: "{{ test_user }}"
+       state: present
+       #password: "Password123"
+
+    - name: take backup of the sudoers file
+      copy:
+       src: /etc/sudoers
+       dest: /tmp/sudoers_{{ansible_date_time.date}}.bkp
+       remote_src: yes
+
+    - name: update sudoers file
+      lineinfile:
+       path: /etc/sudoers
+       state: present
+       regexp: '^{{ test_user }}'
+       line: '{{ test_user }} ALL=(ALL) NOPASSWD: ALL'
+       validate: 'visudo -cf %s'
+
+    - debug:
+       msg: User {{ test_user }} created on System {{ inventory_hostname }}
